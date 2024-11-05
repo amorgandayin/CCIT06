@@ -16,17 +16,21 @@
     }
     
     .btn-brand{
-        background-color: rgb(201, 214, 18);
+        background-color: rgb(234, 238, 12);
         color: #1d1d03;
         border: 2px solid #fff;
+       
         
     }
     
     .btn-brand:hover{
-        border: 2px solid #dceb08fb;
+        border: 2px solid #fff;
     }
     section{
         padding: 100px 0;
+        border-style: outset;
+        border-radius: 5px;
+        border-spacing: 50px;
     }
     #about h3{
         font-size: 55 px;
@@ -41,16 +45,17 @@
     }
     .card{
         transition: all 0.4s ease;
+        background-color: #e0ee234f;
     }
     .card:hover{
-        background-color: rgb(220, 240, 39);
+        background-color: rgba(221, 224, 31, 0.87);
     }
     .card:hover .card-text, .card:hover .card-title{
         color: #0a0101;
     }
 
 #services .btn-brand:hover {
-        background-color: rgb(204, 206, 87) !important;
+        background-color: rgba(204, 206, 87, 0) !important;
         color: rgb(15, 15, 1);
     }
     .testimonials img{
@@ -58,13 +63,13 @@
         border-radius: 50%;
     }
     .testimonials{
-        border: 2px solid rgb(57, 149, 57);
+        border: 2px solid rgb(219, 216, 17);
         padding: 30px;
         border-radius: 30px;
         margin-top: 20px;
     }
     .testimonials a{
-        color: rgb(57, 149, 57);
+        color: rgb(219, 216, 17);
     }
     #faq{
         background-color: #d4e2174f;
@@ -111,6 +116,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
         background-color: #d4e2174f;
+        border-style: outset;
     }
 #footer ul.list-unstyled li a{
     color: #0a0a0a;
